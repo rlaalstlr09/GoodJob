@@ -1,0 +1,66 @@
+<!-- 푸터 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>푸터</title>
+   
+  </head>
+  <style>
+ 
+
+  footer {
+    color: black;   
+    height: 90px;
+    font-size: 12px;
+    position: relative;
+    clear: both;
+    width:100%;
+    bottom: 0;
+  }
+  
+ 
+  .bottom_box {
+    
+    flex: 2;
+    font-size: 14px;
+    text-align: center;
+  }
+  .bottom_box ul > li {
+    display: inline-block; /* 수평정렬 */
+    margin-left: 8px;
+  }
+  .bottom_box >p { /* 마지막 li요소 (굿잡 Corp.) 굵게 */
+    font-weight: bold;
+  }
+  /* 재사용 클래스 */
+  
+  .text_bold-13 {
+    font-weight: bold;
+    font-size: 13px;
+  }
+  </style>
+  <body>
+	<hr>
+  <!--풋터-->
+   <footer>
+   <div class="bottom_box">
+        <ul>
+        <li><p>회사소개</p></li>
+        <li><p>인재채용</p></li>
+        <li><p>제휴제안</p></li>
+        <li><p>이용약관</p></li>
+        <li><p><a>문의하기</a></p></li>
+        <li><p>청소년보호정책</p></li>
+        <li><p>굿잡 정책</p></li>
+        <li><p>고객센터</p></li>
+        
+        </ul>
+    </div>
+     <div class="bottom_box">
+     <p>&copy; 굿잡 Corp.</p>
+     </div>
+</footer>
+  </body>
+</html>

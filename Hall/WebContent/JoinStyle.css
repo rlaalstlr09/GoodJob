@@ -1,0 +1,319 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+  body {
+    margin: 0; /* body의 기본마진을 없애줍니다(선택사항) */
+    font-family: sans-serif;
+  }
+ 
+ /* ------------------ 헤더  ----------------  */
+
+ /* 만들어놓고 필요한 곳에서 쓸 수 있다 */
+:root {
+    --text-color: #eee5e9;
+    --background-color: #3D5F95;
+    --accent-color: #6a87b5;
+}
+
+  /* 폰트는 최상위 컴포넌트에 */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .body {
+    margin: 0;
+  } */
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.navbar {
+    position:sticky;
+    top:0;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 22px 12px;
+    background-color: var(--background-color);
+    width: 100%;
+}
+
+  /* menu */
+
+.navbar-menu {
+    display: flex;
+    margin: auto;
+    padding-left: 0px;
+    list-style: none;
+    font-size: 22px;
+    /* font-family: "Black Han Sans", sans-serif; */
+}
+.navbar-menu li {
+    padding: 15px 35px;
+    word-spacing: 20px;
+}
+
+.navbar-menu li:hover {
+    background-color: var(--accent-color);
+    border-radius: 5px;
+}
+
+  
+
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 8px 24px;
+    }
+
+    .navbar-menu {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    ￼ .navbar-menu a {
+        display: block;
+    }
+
+
+
+    .navbar-menu.active {
+        display: flex;
+    }
+
+}
+ 
+  header {
+    margin: auto; /* header의 양쪽 여백(margin)을 동등하게 맞춤 -> 수평가운데정렬 */
+    width: 100%;
+    height: 160px;
+    display: inline-flex;
+    align-items: center; /* 하위 요소들 수직 가운데정렬 */
+    position: relative;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  fieldset {
+    border: none;
+    display: inline-block;
+  }
+
+  .logo{
+    width: 30%;
+    height: 150px;
+    /* background-color: #acbfe1; */
+    padding-left: 180px;
+  }
+  
+  .logo img {
+    right: 20px;
+    padding-top: 30px;
+  }
+  
+  .visually-hidden { /* legend 안보이게 설정. 이렇게하면 접근성을 준수하면서 디자인을 해치지 않습니다. */
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap;
+  }
+ 
+
+  .search {
+    width : 45%;
+    height: 150px;
+    padding-top: 60px;
+    padding-left: 70px;
+    /* background-color: #acbfe1; */
+  }
+
+  .search_box {
+    width: 500px;
+    height: 50px;
+    
+    border: 4px solid #3D5F95;
+    display: flex;
+    align-items: center;
+  }
+  .search_box input {
+    flex: 9; /* search-box내부에서 9만큼의 크기를 차지(비율) */
+    height: 46px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+  }
+  .search_box button {
+    flex: 1; /* search-box내부에서 1만큼의 크기를 차지(비율) */
+    height: 46px;
+    padding: 0;
+    border: none;
+    outline: none;
+    background: #3D5F95;
+    color: #ffffff;
+  }
+
+  
+  .member {
+    margin: auto;
+    width: 100%;
+    height: 20px;
+    padding-left:40px;
+  }
+  
+  
+
+
+ 
+
+/* ----------------------------------------------------------- */
+.box {
+	width: 1300px;
+	margin: 0 auto;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.dd {	/* 경계선 박스 */
+	text-align: center;
+	align-content: center;
+	align-items: center;
+	width: 700px;
+	height: 500px;
+	border: solid 2px #aaaaaa;
+	padding: 30px;
+	border-radius: 15px;
+	margin: auto;
+	
+}
+
+.btnbottom1 {	/* 회원가입 버튼  */
+	margin: 60px 0 10px 5px;
+}
+.btnbottom2 {	/* 취소 버튼  */
+	margin: 60px 0 10px 30px;
+}
+.nav2 {		/* 헤더 nav랑 겹칠까봐 클래스로 해놓음  */
+	height: 610px;
+	padding: 20px 0;
+}
+
+.ibtn {
+	opacity: 0;
+}
+
+td {
+	padding: 10px;
+	text-align: center;
+}
+
+.button {
+		padding: 3px 15px;
+	}
+	
+input {
+		height: 25px;
+		border: solid 1px #aaaaaa;
+		border-radius: 15px;
+		padding-left: 10px;
+		margin-left: 10px;
+	}
+	
+h2 {
+	margin: auto; 
+	}
+
+table {			/* join.jsp 페이지 테이블 */
+	margin:auto;
+	width:530px;
+	align-content: center;
+	align-items: center;
+}
+
+.table2 {		/* join_Query.jsp 페이지 테이블 */
+	margin:auto;
+	width:500px;
+	font-size: 20px;
+}
+
+
+/* ----------------- 하단 버튼 스타일 --------------- */
+.btn.mini, 
+.btn-two.mini, 
+.btn-gradient.mini, 
+.btn-effect.mini {
+  padding: 4px 12px;  
+  font-size: 12px;
+}
+
+.btn-gradient.blue {
+	background:  #3D5F95;    /* 버튼 색깔 */
+ /* background: rgba(102,152,203,1);
+  background: -moz-linear-gradient(top, rgba(102,152,203,1) 0%, rgba(92,138,184,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(102,152,203,1)), color-stop(100%, rgba(92,138,184,1)));
+  background: -webkit-linear-gradient(top, rgba(102,152,203,1) 0%, rgba(92,138,184,1) 100%);
+  background: -o-linear-gradient(top, rgba(102,152,203,1) 0%, rgba(92,138,184,1) 100%);
+  background: -ms-linear-gradient(top, rgba(102,152,203,1) 0%, rgba(92,138,184,1) 100%);
+  background: linear-gradient(to bottom, rgba(102,152,203,1) 0%, rgba(92,138,184,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6698cb', endColorstr='#5c8ab8', GradientType=0 ); */
+}
+
+.btn-gradient {
+  text-decoration: none;
+  color: white;
+  padding: 10px 30px;
+  display: inline-block;
+  position: relative;
+  border: 1px solid rgba(0,0,0,0.21);
+  border-bottom: 4px solid rgba(0,0,0,0.21);
+  border-radius: 4px;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+}
+
+
+/* ----------------------------- 푸터 ----------------------------  */
+    footer {
+    color: black;   
+    height: 90px;
+    font-size: 12px;
+    position: relative;
+    clear: both;
+    width:100%;
+    bottom: 0;
+  }
+ 
+  .bottom_box {
+    
+    flex: 2;
+    font-size: 14px;
+    text-align: center;
+  }
+  .bottom_box ul > li {
+    display: inline-block; /* 수평정렬 */
+    margin-left: 8px;
+  }
+  .bottom_box >p { /* 마지막 li요소 (굿잡 Corp.) 굵게 */
+    font-weight: bold;
+  }
+  /* 재사용 클래스 */
+  
+  .text_bold-13 {
+    font-weight: bold;
+    font-size: 13px;
+  }
