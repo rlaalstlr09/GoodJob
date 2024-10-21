@@ -3,6 +3,7 @@
   <img src="https://github.com/rlaalstlr09/GoodJob/raw/main/portfolio/main.png" alt="main" style="display: inline; margin: 0;">
 </div>
  
+<br>
 
 <ul>
   <li>회원의 정보(취준생, 직장인, 기업)에 따라 다양한 게시판에서 정보 공유 가능</li>
@@ -17,6 +18,8 @@
   <li>고객센터 기능을 통해 회원은 관리자에게 문의할 수 있음</li>
   <li>회원은 마이페이지에서 작성한 글, 댓글, 좋아요 누른 글 등을 조회 가능</li>
 </ul>
+
+<br>
 
 ## 🖥️ 기술스택
 
@@ -45,6 +48,8 @@
 
 <img src="https://img.shields.io/badge/github-%23181717.svg?&style=for-the-badge&logo=github&logoColor=white" />
 
+<br>
+
 ## 👨‍👨‍👧 역할
 | 이름 | 역할  | 깃허브 |
 |-------|-------|-------|
@@ -53,17 +58,29 @@
 | 유예담 | 마이페이지, 문의 내역, PPT |  |
 | 김지은 | 회원가입, 게시판 글 목록, PPT |  |
 
+<br>
+
 ## 🗓️ 프로젝트 기간
 2022/11/07 ~ 2022/12/16
 
+<br>
+
 ## 🗂 DB설계
 ![ERD](https://github.com/rlaalstlr09/GoodJob/blob/main/portfolio/erd.png)
+
+<br>
+
 ## 🗺 흐름도 (개발자)
 ![SITEMAP](https://github.com/rlaalstlr09/GoodJob/blob/main/portfolio/admin_sitemap.png)
 ## 🗺 흐름도 (사용자)
 ![SITEMAP](https://github.com/rlaalstlr09/GoodJob/blob/main/portfolio/user_sitemap.png)
+
+<br>
+
 ## 🎤 프레젠테이션
 [굿잡PDF](https://github.com/rlaalstlr09/GoodJob/blob/main/portfolio/GoodJob_PPT.pdf)
+
+<br>
 
 ## 💌 프로젝트 후기
 
@@ -76,6 +93,8 @@
 하지만 UI 디자인이 다소 조잡하고
 
 JSP를 배우는 과정에서 만든 프로젝트기 때문에 리펙토링 할 요소가 다수 존재하여 최적화가 잘 안된 것이 아쉽습니다.
+
+<br>
 
 ## 📃 LICENSE
 
