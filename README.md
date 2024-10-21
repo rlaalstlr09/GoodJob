@@ -53,7 +53,8 @@
 | 유예담 | 마이페이지, 문의 내역, PPT |  |
 | 김지은 | 회원가입, 게시판 글 목록, PPT |  |
 
-
+## 🗓️ 프로젝트 기간
+2022/11/07 ~ 2022/12/16
 
 ## 🗂 DB설계
 ![ERD](https://github.com/rlaalstlr09/GoodJob/blob/main/portfolio/erd.png)
