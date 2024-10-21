@@ -1,7 +1,9 @@
 # 💼 GoodJob
-<div>
-  
+<div style="display:flex;flex-direction:column;gap:-30px;">
+  <img src="https://github.com/rlaalstlr09/GoodJob/raw/main/portfolio/main.png" alt="main" style="display: inline; margin: 0;">
 </div>
+ 
+
 <ul>
   <li>회원의 정보(취준생, 직장인, 기업)에 따라 다양한 게시판에서 정보 공유 가능</li>
    <ol type="1">
@@ -54,11 +56,13 @@
 
 
 ## 🗂 DB설계
-![ERD](https://github.com/rlaalstlr09/Musical/blob/main/portfolio/ER%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8.png)
-## 🗺 사이트 맵
-![SITEMAP](https://github.com/rlaalstlr09/Musical/blob/main/portfolio/%EC%82%AC%EC%9D%B4%ED%8A%B8%EB%A7%B5.png)
+![ERD](https://github.com/rlaalstlr09/GoodJob/blob/main/portfolio/erd.png)
+## 🗺 흐름도 (개발자)
+![SITEMAP](https://github.com/rlaalstlr09/GoodJob/blob/main/portfolio/admin_sitemap.png)
+## 🗺 흐름도 (사용자)
+![SITEMAP](https://github.com/rlaalstlr09/GoodJob/blob/main/portfolio/user_sitemap.png)
 ## 🎤 프레젠테이션
-[티켓보라PDF](https://github.com/rlaalstlr09/Musical/blob/main/portfolio/%ED%8B%B0%EC%BC%93%EB%B3%B4%EB%9D%BC.pdf)
+[굿잡PDF](https://github.com/rlaalstlr09/GoodJob/blob/main/portfolio/GoodJob_PPT.pdf)
 
 ## 💌 프로젝트 후기
 
