@@ -1,10 +1,10 @@
-# 🎶 GoodJob
+# 💼 GoodJob
 <div>
   
 </div>
 <ul>
   <li>회원의 정보(취준생, 직장인, 기업)에 따라 다양한 게시판에서 정보 공유 가능</li>
-   <ol>
+   <ol type="1">
         <li>자유게시판 – 모든 이용자 자유롭게 자유주제의 게시글 작성</li>
         <li>면접 게시판 – 기업의 면접 관련 정보 작성</li>
         <li>채용정보 게시판 – 기업 회원이 기업의 채용정보 공유</li>
@@ -30,6 +30,7 @@
 ### ⚙️ 백엔드
 
 <div>
+  
   #### 🗄️ DataBase
   <img src="https://img.shields.io/badge/mysql-%234479A1.svg?&style=for-the-badge&logo=mysql&logoColor=white" />
 
